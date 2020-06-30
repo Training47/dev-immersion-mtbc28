@@ -1,2 +1,2 @@
-# dev-immersion-mtbc28
+# dev-immersion1
 Repo for dev immersion homework/assignments
