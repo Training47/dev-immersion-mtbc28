@@ -39,6 +39,7 @@ flex-direction: column;
     padding: 20px 30px;
     height: 120px;
     display: flex;
+    justify-content: center;
 }
 
 .item:nth-child(3) {
