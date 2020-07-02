@@ -5,7 +5,6 @@
 
 html,
 body {
-  display: block;
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -36,10 +35,22 @@ flex-direction: column;
     font-weight: 400;
 }
 
+#container {
+display: flex;
+flex-direction: row;
+padding: 0px;
+margin: 80px;
+}
+
+
+
+
 .item {
-    padding: 20px 30px;
-    height: 120px;
+    padding: 10px 20px;
+    height: 50px;
     display: flex;
+    flex-direction:row;
+ 
     
 }
 
@@ -56,18 +67,23 @@ margin-right: 60px;
 
 .delete-btn,
 .like-btn {
-    display: inline-block;
-    cursor: pointer;
-}
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+  }
 
 .delete-btn {
+  display: inline-block;
+  cursor: pointer;
     width: 18px;
     height: 17px;
-    background: url(&amp;quot;delete-icn.svg&amp;quot;) no-repeat center;
+    background: url("images/minus.svg") no-repeat center;
+    margin-right: 20px;
 }
 
 /*Heart button*/
 .like-btn {
+  display: inline-block;
     position: absolute;
     top: 9px;
     left: 15px;
@@ -76,6 +92,7 @@ margin-right: 60px;
     height: 60px;
     background-size: 2900%;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .is-active {
