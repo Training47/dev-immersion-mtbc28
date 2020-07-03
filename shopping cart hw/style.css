@@ -37,19 +37,17 @@ flex-direction: column;
 
 #container {
 display: flex;
-flex-direction: row;
+flex-direction: column;
 padding: 0px;
 margin: 80px;
 }
 
 
-
-
 .item {
     padding: 10px 20px;
-    height: 50px;
+    height: 20px;
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
  
     
 }
@@ -189,7 +187,7 @@ animation-fill-mode: forwards;
     .item {
       height: auto;
       flex-wrap: wrap;
-      justify-content: center;
+      
     }
     .image img {
       width: 50%;
