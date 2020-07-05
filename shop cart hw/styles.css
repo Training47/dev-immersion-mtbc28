@@ -25,6 +25,14 @@ body {
     flex-direction: column;
 }
 
+#container {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   padding: 0px 250px;
+  
+}
+
 .title {
     height: 60px;
     border-bottom: 1px solid #E1E8EE;
@@ -35,9 +43,11 @@ body {
 }
 
 .item {
+    position: relative;
     padding: 20px 30px;
     height: 120px;
     display: flex;
+    
 }
 
 .item:nth-child(3){
