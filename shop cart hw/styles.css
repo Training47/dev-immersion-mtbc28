@@ -6,11 +6,13 @@
 
 html,
 body {
+    display: block;
     width: 100%;
     height: 100%;
     padding: 10px;
     margin: 0;
-    background-color: #7EC855;
+    background-color:  background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(121,9,81,1) 61%, rgba(0,212,255,1) 100%); 
     font-family: 'Roboto', sans-serif;
 }
 
@@ -23,14 +25,6 @@ body {
     border-radius: 6px;
     display: flex;
     flex-direction: column;
-}
-
-#container {
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   padding: 0px 250px;
-  
 }
 
 .title {
@@ -47,6 +41,7 @@ body {
     padding: 20px 30px;
     height: 120px;
     display: flex;
+    align-items: start;
     
 }
 
@@ -67,8 +62,10 @@ body {
     cursor: pointer;
     width: 18px;
     height: 17px;
-    background: url("delete-icn.svg") no repeat center;
+    background: url('delete-icn.svg') no-repeat center;
     margin-right: 20px;
+    
+    
 }
 
 .like-btn {
@@ -113,7 +110,7 @@ body {
 .description span {
     display: block;
     font-size: 14px;
-    color: #43484D;
+    color: darkviolet;
     font-weight: 400;
 }
 
@@ -124,7 +121,7 @@ body {
 .description span:last-child {
     font-weight: 300;
     margin-top: 8px;
-    color: #86939E;
+    color: #180217;
 
 }
 
@@ -159,7 +156,7 @@ button[class*=btn] {
 }
 
 .plus-btn img {
-    margin-top: 2xp;
+    margin-top: 2px;
 }
 
 button:focus,
